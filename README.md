@@ -40,6 +40,7 @@ typescript에 필요한 내용을 설치 합니다. 그리고 `tsconfig.json`파
 ```bash
 yarn add --dev webpack webpack-watch-server
 ```
+`webpack.config.js`파일을 아래와 같이 입력 합니다.
 
 ```javascript
 var path = require('path');
@@ -91,3 +92,7 @@ httpServer.listen(httpPort, (data) => {
   console.log(`Listening on port ${httpPort}`)
 });
 ```
+
+
+
+위 내용은 [github](https://github.com/gyuha/express-typescript-webpack)에 올려져 있습니다.
